@@ -1,0 +1,33 @@
+.container{
+    margin:20px 0 20px 20px;
+    
+}
+.text {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.inputValue {
+    border: 0;
+    outline: 1px solid black;
+    border: 0;
+    outline: 1px solid black;
+    width: 350px;
+    height: 20px;
+}
+.inputValue:focus {
+    outline: 1px solid blue;
+}
+.btn{
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+.btn:hover {
+    background-color: blue;
+    transition: 1s;
+}
